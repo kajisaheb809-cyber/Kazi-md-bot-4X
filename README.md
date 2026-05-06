@@ -272,8 +272,8 @@ sudo apt update
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs git ffmpeg libvips-dev libwebp-dev build-essential
 
-git clone https://github.com/Xchristech2/GAAJU-MD.git
-cd GAAJU-MD
+git clone https://github.com/kajisaheb809-cyber/Kazi-md-bot-4X.git
+cd Kazi-md-bot-4X
 npm install
 cp sample.env .env && nano .env
 npm start
@@ -288,13 +288,13 @@ npm start
 > The repo includes pre-configured `.replit` and `replit.nix`.
 
 1. Go to [replit.com](https://replit.com) → **Create Repl** → **Import from GitHub**
-2. Paste: `https://github.com/GlobalTechInfo/MEGA-MD`
+2. Paste: `https://github.com/GlobalTechInfo/Kazi-MD`
 3. Open **Secrets** tab (🔒) and add:
 
    | Key | Value |
    |---|---|
-   | `SESSION_ID` | `Xchristech2/GAAJU-MD_your_gist_id` |
-   | `OWNER_NUMBER` | `234001234567` |
+   | `SESSION_ID` | `kajisaheb809-cyber/Kazi-md-bot-4X_your_gist_id` |
+   | `OWNER_NUMBER` | `8801629143977` |
 
 4. Click **Run**
 
@@ -317,7 +317,7 @@ npm start
 
 **One-line Deployer:**
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/Xchristech2/GAAJU-MD/main/lib/heroku.sh)
+bash <(curl -s https://raw.githubusercontent.com/kajisaheb809-cyber/Kazi-md-bot-4X/main/lib/heroku.sh)
 ```
 **Manual:**
 ```bash
@@ -325,8 +325,8 @@ heroku login
 heroku create your-bot-name
 heroku stack:set container
 
-heroku config:set SESSION_ID=Xchristech2/GAAJU-MD_your_gist_id
-heroku config:set OWNER_NUMBER=234001234567
+heroku config:set SESSION_ID=kajisaheb809-cyber/Kazi-md-bot-4X_your_gist_id
+heroku config:set OWNER_NUMBER=8801629143977
 heroku config:set MONGO_URL=your_mongodb_url   # Recommended
 
 git push heroku main
@@ -400,7 +400,7 @@ heroku logs --tail
 
 **One-line Deployer:**
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/Xchristech2/GAAJU-MD/main/lib/fly.sh)
+bash <(curl -s https://raw.githubusercontent.com/kajisaheb809-cyber/Kazi-md-bot-4X/main/lib/fly.sh)
 ```
 **Manual:**
 ```bash
@@ -408,8 +408,8 @@ curl -L https://fly.io/install.sh | sh
 fly auth login
 
 fly launch --no-deploy
-fly secrets set SESSION_ID=Xchristech2/GAAJU-MD_your_gist_id
-fly secrets set OWNER_NUMBER=234001234567
+fly secrets set SESSION_ID=kajisaheb809-cyber/Kazi-md-bot-4X_your_gist_id
+fly secrets set OWNER_NUMBER=8801629143977
 fly deploy
 
 fly logs   # View logs
@@ -431,14 +431,14 @@ docker build -t gaaju-md .
 
 # Run
 docker run -d \
-  -e SESSION_ID=Xchristech2/GAAJU-MD_your_gist_id \
-  -e OWNER_NUMBER=234001234567 \
+  -e SESSION_ID=kajisaheb809-cyber/Kazi-md-bot-4X_your_gist_id \
+  -e OWNER_NUMBER=8801629143977 \
   -p 5000:5000 \
-  --name gaaju-md \
-  gaaju-md
+  --name Kazi-md-bot-4X \
+  Kazi-md
 
 # Logs
-docker logs -f gaaju-md
+docker logs -f Kazi-md-bot-4X
 ```
 
 ---
@@ -666,9 +666,9 @@ npm run test:watch      # Watch mode during development
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/Telegram-FF0000?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Official_ChrisGaajuChat)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp_Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029VbBvGgyFsn0alyIDjw0z)
-[![GitHub Issues](https://img.shields.io/badge/GitHub_Issues-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Xchristech2/GAAJU-MD/issues)
+[![Telegram](https://img.shields.io/badge/Telegram-FF0000?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Kazimdbot4Xminzip)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp_Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029VbC8MBZHrDZelHN6bJ2C)
+![GitHub Issues](https://img.shields.io/badge/GitHub_Issues-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kajisaheb809-cyber)
 
 </div>
 
