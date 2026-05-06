@@ -14,7 +14,7 @@ NC='\033[0m'
 echo -e "${CYAN}"
 echo "╔═══════════════════════════════════════╗"
 echo "║       Kazi-md-bot-4X Heroku Deployer         ║"
-echo "║         by kajisaheb809-cyber             ║"
+echo "║         by kajisaheb809-cyber                ║"
 echo "╚═══════════════════════════════════════╝"
 echo -e "${NC}"
 
