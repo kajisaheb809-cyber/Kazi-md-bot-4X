@@ -41,8 +41,8 @@ export default {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363406588763460@newsletter',
-                        newsletterName: 'GAAJU MD PERFORMANCE',
+                        newsletterJid: '0029VbC8MBZHrDZelHN6bJ2C@newsletter',
+                        newsletterName: 'Kazi-md-bot-4X PERFORMANCE',
                         serverMessageId: -1
                     }
                 }
