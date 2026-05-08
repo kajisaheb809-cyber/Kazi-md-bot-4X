@@ -55,8 +55,9 @@ export default {
     async handler(sock, message, args, context) {
         const chatId = context.chatId || message.key.remoteJid;
         try {
-            const imagePath = path.join(process.cwd(), 'assets/thumb.png');
-            const thumbnail = fs.existsSync(imagePath) ? fs.readFileSync(imagePath) : null;
+            const thumbnail = {
+    url: 'https://i.imgur.com/vEreT7n.jpeg'
+};
             const categories = Array.from(CommandHandler.categories.keys());
             const stats = CommandHandler.getDiagnostics();
             const menuEmoji = getRandomEmoji(menuEmojis);
