@@ -1,4 +1,4 @@
-import { File } from 'kazi';
+import { File } from 'gaajujs';
 import path from 'path';
 const formatBytes = (bytes) => {
     if (bytes === 0)
