@@ -74,7 +74,7 @@ try {
 catch {
     owner = [];
 }
-global.botname = config.botName || "GAAJU-MD";
+global.botname = config.botName || "Kazi-md-bot-4X";
 global.themeemoji = "•";
 const pairingCode = !process.argv.includes("--qr-code");
 const useMobile = process.argv.includes("--mobile");
@@ -292,8 +292,8 @@ async function startQasimDev() {
                                 forwardingScore: 1,
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
-                                    newsletterJid: '120363406588763460@newsletter',
-                                    newsletterName: 'ᴄʜʀɪs ɢᴀᴀᴊᴜ',
+                                    newsletterJid: '120363426421968955@newsletter',
+                                    newsletterName: 'Kazi-md-bot-4X',
                                     serverMessageId: -1
                                 }
                             }
@@ -447,8 +447,8 @@ async function startQasimDev() {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363406588763460@newsletter',
-                                newsletterName: 'CHRIS GAAJU TECH',
+                                newsletterJid: '120363426421968955@newsletter',
+                                newsletterName: 'Kazi-md-bot-4X+X,
                                 serverMessageId: -1
                             }
                         }
