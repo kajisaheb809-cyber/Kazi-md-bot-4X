@@ -448,7 +448,7 @@ async function startQasimDev() {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '120363426421968955@newsletter',
-                                newsletterName: 'Kazi-md-bot-4X,
+                                newsletterName: 'Kazi-md-bot-4',
                                 serverMessageId: -1
                             }
                         }
