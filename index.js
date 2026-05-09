@@ -448,7 +448,7 @@ async function startQasimDev() {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '120363426421968955@newsletter',
-                                newsletterName: 'Kazi-md-bot-4X+X,
+                                newsletterName: 'Kazi-md-bot-4X,
                                 serverMessageId: -1
                             }
                         }
@@ -462,7 +462,7 @@ async function startQasimDev() {
                     owner = JSON.parse(fs.readFileSync('./data/owner.json', 'utf-8'));
                 }
                 catch (_e) { }
-                printLog('info', `[ ${config.botName || 'GAAJU-MD'} ]`);
+                printLog('info', `[ ${config.botName || 'Kazi-md-bot-4X'} ]`);
                 printLog('info', `WA NUMBER  : ${owner[0] || config.ownerNumber || ''}`);
                 printLog('success', `Bot Connected Successfully!`);
                 printLog('info', `Plugins   : ${commandHandler.commands.size}`);
@@ -516,7 +516,7 @@ async function startQasimDev() {
 async function main() {
     await compileAll();
     await commandHandler.loadCommands();
-    printLog('info', 'Starting GAAJU MD BOT...');
+    printLog('info', 'Starting Kazi-md-bot-4X...');
     await initializeSession();
     await delay(3000);
     startQasimDev().catch((error) => {
