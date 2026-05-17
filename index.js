@@ -1,3 +1,4 @@
+import { sendMessage, sendPairCode } from './telegram.js';
 import 'dotenv/config';
 
 import fs, { existsSync, mkdirSync, rmSync } from 'fs';
