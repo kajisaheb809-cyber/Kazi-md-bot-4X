@@ -1,4 +1,4 @@
-import { sendMessage, sendPairCode } from './telegram.js';
+
 import 'dotenv/config';
 
 import fs, { existsSync, mkdirSync, rmSync } from 'fs';
@@ -216,7 +216,7 @@ async function startQasimDev() {
             connectTimeoutMs: 60000,
             keepAliveIntervalMs: 10000,
         });
-        global.QasimDev = QasimDev;
+    
         QasimDev.store = store;
         const originalSendPresenceUpdate = QasimDev.sendPresenceUpdate;
         const originalReadMessages = QasimDev.readMessages;
@@ -260,7 +260,7 @@ async function startQasimDev() {
         };
         QasimDev.ev.on('creds.update', _saveCreds);
         store.bind(QasimDev.ev);
-        QasimDev.ev.on('messages.upsert', async (chatUpdate) => {
+        QasimDev.ev.on('messaes.upsert', async (chatUpdate) => {
             try {
                 const mek = chatUpdate.messages[0];
                 if (!mek.message)
