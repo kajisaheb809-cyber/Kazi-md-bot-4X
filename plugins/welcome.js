@@ -144,7 +144,34 @@ async function handleJoinEvent(sock, id, participants) {
                     .replace(/{Total Members}/g, totalMembers);
             }
             else {
-                fallbackMessage = `Welcome @${user} to ${groupName}! 🎉`;
+                fallbackMessage = `╭╼━≪•𝙽𝙴𝚆 𝙼𝙴𝙼𝙱𝙴𝚁•≫━╾╮\n┃𝚆𝙴𝙻𝙲𝙾𝙼𝙴: @${user} *to ${groupName}! * ✨🎉\n\n` +
+        `🚀 You just landed in an awesome group!\n` +
+        `👥 *Total Members:* ${totalMembers}\n╰━━━━━━━━━━━━━━━╯\n\n` + 
+        `📢 *🕌 *السلام عليكم ورحمة الله وبركاته*
+✨ *Assalamualaikum Warahmatullahi Wabarakatuh* ✨
+
+*🌸💫 Dear New Member, Welcome to Our Group*
+
+*তোমাকে পারমিশন ছাড়া অ্যাড দেওয়ার জন্য সত্যিই দুঃখিত 🥺*
+*তবে এখন যখন চলে এসেছো, আমাদের সাথেই থেকো 💬*
+*ফ্রি টাইমে আড্ডা দাও, মজা করো, চিল করো*
+*— কারণ এই জায়গাটাই ভরা পজিটিভ ভাইবে 💖*
+
+*আজ আছি, কাল থাকবো কি না কে জানে 🙃*
+*যদি কখনো কোনো ভুল করি, ক্ষমার চোখে দেখো 🤲🫂*
+
+*আর হ্যাঁ ☕*
+*আমার পক্ষ থেকে তোমার জন্য স্পেশাল*
+*চায়ের দাওয়াত রইলো! 😋*
+*Enjoy করো, হাসো, আর মন খুলে সবাইকে*
+*আপন করে নাও 💬💞*
+
+*— 🌿✨ Aᴅᴍɪɴ ᴛᴇᴀᴍ ✨🌿*
+
+.........................................................
+-----------------------------------------
+🌺 *May Allah bless our gathering and make it a source of benefit for all of us. Ameen!* 🌺
+🌺*ᴘᴏᴡᴇʀᴇᴅ ʙʏ Kazi-md-bot-4X*`;
             }
             await sock.sendMessage(id, {
                 text: fallbackMessage,
