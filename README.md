@@ -255,9 +255,9 @@ pm2 save && pm2 startup
 
 | Command | Description |
 |---|---|
-| `pm2 logs Kazi-md` | Live logs |
-| `pm2 restart Kazi-md` | Restart |
-| `pm2 stop kazi-md` |Stopp |
+| `pm2 logs Kazi-md-bot-4X` | Live logs |
+| `pm2 restart Kazi-md-bot-4X` | Restart |
+| `pm2 stop Kazi-md-bot-4X` |Stopp |
 | `pm2 status` | Status overview |
 
 ---
