@@ -12,7 +12,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![WhatsApp](https://img.shields.io/badge/Baileys-7.x-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://github.com/WhiskeySockets/Baileys)
 [![Stars](https://img.shields.io/github/stars/kajisaheb809-cyber/Kazi-md-bot-4X?style=for-the-badge&logo=starship&color=gold)](https://github.com/kajisaheb809-cyber/Kazi-md-bot-4X/stargazers)
-[![Forks](https://img.shields.io/github/forksXkajisaheb809-cyber/Kazi-md-bot-4X?style=for-the-badge&logo=git&color=orange)](https://github.com/kajisaheb809-cyber/Kazi-md-bot-4X/network/members)
+[![Forks](https://img.shields.io/github/forks/kajisaheb809-cyber/Kazi-md-bot-4Xstylee=for-the-badge&logo=git&color=orange)](https://github.com/kajisaheb809-cyber/Kazi-md-bot-4X/network/members)
 
 <br/>
 
