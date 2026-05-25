@@ -17,7 +17,7 @@ const config = {
     // Links
     channelLink: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VbC8MBZHrDZelHN6bJ2C',
     updateZipUrl: process.env.UPDATE_URL || 'https://github.com/kajisaheb809-cyber/archive/refs/heads/main.zip',
-    ytChannel: process.env.YT_CHANNEL || 'Xchristech',
+    ytChannel: process.env.YT_CHANNEL || 'Kazi-md-bot-4X',
     // Session
     sessionId: process.env.SESSION_ID || '',
     pairingNumber: process.env.PAIRING_NUMBER || '',
