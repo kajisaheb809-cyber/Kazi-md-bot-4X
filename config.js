@@ -5,7 +5,7 @@ const config = {
     botName: process.env.BOT_NAME || 'Kazi-md-bot-4X',
     botOwner: process.env.BOT_OWNER || 'Kazi-md-bot-4X',
     ownerNumber: process.env.OWNER_NUMBER || '8801629143977',
-    author: process.env.AUTHOR || 'Xchristech2',
+    author: process.env.AUTHOR || 'Kazi-md-bot-4X',
     packname: process.env.PACKNAME || 'Kazi-md-bot-4X',
     description: process.env.DESCRIPTION || 'High performance multi-device WhatsApp bot',
     version: '6.0.0',
