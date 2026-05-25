@@ -83,7 +83,7 @@ export default {
       const imagePath = path.join(
         process.cwd(),
         'assets',
-        'menu.jpg'
+        'thumb.png'
       );
 
       // save
