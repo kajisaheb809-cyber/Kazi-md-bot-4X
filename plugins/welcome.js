@@ -51,7 +51,7 @@ async function handleJoinEvent(sock, id, participants) {
             forwardedNewsletterMessageInfo: {
 
                 newsletterJid:
-                '120363406588763460@newsletter',
+                '120363426421968955@newsletter',
 
                 newsletterName:
                 'Kazi-md-bot-4X',
