@@ -55,14 +55,15 @@ async function handleLeaveEvent(sock, id, participants, action = 'leave') {
 ┃ 👥 MEMBERS : ${totalMembers}
 ┃
 ┃ ━━━━━━━━━━━━━
-┃
-┃ 💔 A MEMBER HAS
-┃ BEEN REMOVED
-┃ FROM THE GROUP
-┃
-┃ 🕌 السلام عليكم
-┃ ورحمة الله وبركاته
-┃
+┃   📢 *🕌 *السلام عليكم ورحمة الله وبركاته*
+┃ *❛❛ Feelings never fade 🦋 ❜❜*
+┃ *Some memories stay forever… even
+┃ *when people don’t ✨🌸💙*
+┃ *This was a fun hangout group ⎯⃝🥹🍃💘*
+┃ *We shared laughs, late-night
+┃ talks & moments 🦚🌻.*
+┃       *Don’t forget us ☝️🥹🍒🤌*
+┃           *~⎯͢⎯⃝💞 Come back again!~*
 ┃ ✨ MAY ALLAH
 ┃ BLESS EVERYONE
 ┃
@@ -71,7 +72,7 @@ async function handleLeaveEvent(sock, id, participants, action = 'leave') {
 ┃
 ┃ ━━━━━━━━━━━━━
 ┃
-┃ 💚 Kazi-md-bot-4X
+┃ > POWERED BY Kazi-md-bot-4X 👑
 ╰━━━〔 🌸 GOOD LUCK 🌸 〕━━━⬣`;
 
             } else {
@@ -88,15 +89,15 @@ async function handleLeaveEvent(sock, id, participants, action = 'leave') {
 ┃ 👥 MEMBERS : ${totalMembers}
 ┃
 ┃ ━━━━━━━━━━━━━
-┃
-┃ ❛❛ FEELINGS
-┃ NEVER FADE 🦋 ❜❜
-┃
-┃ 🕌 السلام عليكم
-┃ ورحمة الله وبركاته
-┃
-┃ ✨ SOME MEMORIES
-┃ STAY FOREVER
+┃  📢 *🕌 *السلام عليكم ورحمة الله وبركاته*
+┃ *❛❛ Feelings never fade 🦋 ❜❜*
+┃ *Some memories stay forever… even
+┃ when people don’t ✨🌸💙*
+┃ *This was a fun hangout group ⎯⃝🥹🍃💘*
+┃ *We shared laughs, late-night
+┃     talks & moments 🦚🌻.*
+┃ *Don’t forget us ☝️🥹🍒🤌*
+┃      *~⎯͢⎯⃝💞 Come back again!~*
 ┃
 ┃ 💖 THANKS FOR
 ┃ BEING WITH US
@@ -106,7 +107,7 @@ async function handleLeaveEvent(sock, id, participants, action = 'leave') {
 ┃
 ┃ ━━━━━━━━━━━━━
 ┃
-┃ 💚 Kazi-md-bot-4X
+┃ > POWERED BY Kazi-md-bot-4X 👑
 ╰━━━〔 🌸 SEE YOU 🌸 〕━━━⬣`;
 
             }
