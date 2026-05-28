@@ -55,7 +55,7 @@ export default {
 
             // Success message
             await sock.sendMessage(chatId, {
-                text: `✅ Successfully kicked all members!\n\n⚠️ ${usersToKick.length} জন member remove করা হয়েছে!`
+                text: `✅ Successfully kicked all members!\n\n⚠️ ${usersToKick.length} *members kicked successful✅*!`
             }, { quoted: message });
 
         } catch (error) {
