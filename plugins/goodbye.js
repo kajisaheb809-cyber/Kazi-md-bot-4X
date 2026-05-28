@@ -11,6 +11,25 @@ async function handleLeaveEvent(sock, id, participants, action = 'leave') {
 
     const groupName = groupMetadata.subject;
     const totalMembers = groupMetadata.participants.length;
+    const channelInfo = {
+
+        contextInfo: {
+
+            forwardingScore: 999,
+            isForwarded: true,
+
+            forwardedNewsletterMessageInfo: {
+
+                newsletterJid:
+                '120363426421968955@newsletter',
+
+                newsletterName:
+                'Kazi-md-bot-4X',
+
+                serverMessageId: 1
+            }
+        }
+    };
 
     for (const participant of participants) {
 
