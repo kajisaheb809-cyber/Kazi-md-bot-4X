@@ -113,5 +113,4 @@ export default {
 }
   handlebotResponse,
   loadUserGroupData,
-  saveUserGroupData
-};
+  saveUserGroupData;
