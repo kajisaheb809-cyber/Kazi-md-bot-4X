@@ -87,7 +87,7 @@ export default {
                 return `@${jid.split('@')[0]}`;
             }));
             await sock.sendMessage(chatId, {
-                text: `🚫 *User${usersToKick.length > 1 ? 's' : ''} Removed*\n\n${usernames.join(', ')} has been kicked from the group!`,
+                text: `🚫 *User${usersToKick.length > 1 ? 's' : ''} Removed*\n\n${usernames.join(', ')} has been kicked successful.✅!`,
                 mentions: usersToKick
             }, { quoted: message });
         }
