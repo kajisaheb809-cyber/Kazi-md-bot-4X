@@ -2,7 +2,7 @@ import axios from "axios";
 
 export default {
   config: {
-    name: "kazi",
+    name: "bot",
     aliases: ["ai", "sim"],
     permission: 0,
     prefix: "both",
@@ -68,7 +68,7 @@ export default {
     try {
 
       const apis = await axios.get(
-        "https://raw.githubusercontent.com/MOHAMMAD-NAYAN-OFFICIAL/Nayan/main/api.json"
+        "https://raw.githubusercontent.com/kajisaheb809-cyber/Kazi-md-bot-4X/main/api.json"
       );
 
       const apiss = apis.data.api;
@@ -135,7 +135,7 @@ export default {
     try {
 
       const apis = await axios.get(
-        "https://raw.githubusercontent.com/MOHAMMAD-NAYAN-OFFICIAL/Nayan/main/api.json"
+        "https://raw.githubusercontent.com/kajisaheb809-cyber/Kazi-md-bot-4X/main/api.json"
       );
 
       const apiss = apis.data.api;
@@ -169,7 +169,7 @@ export default {
       );
 
       global.client.handleReply.push({
-        name: "kazi",
+        name: "bot",
         author: senderId,
         messageID: sent.key.id,
         type: "chat"
