@@ -11,6 +11,7 @@ async function handleLeaveEvent(sock, id, participants, action = 'leave') {
 
     const groupName = groupMetadata.subject;
     const totalMembers = groupMetadata.participants.length;
+    
     const channelInfo = {
 
         contextInfo: {
