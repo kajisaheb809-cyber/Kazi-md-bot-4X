@@ -2,7 +2,6 @@ import fs from 'fs';
 import path from 'path';
 import { dataFile } from '../lib/paths.js';
 import store from '../lib/lightweight_store.js';
-import = require("axios");
 
 export default {
    config: {
