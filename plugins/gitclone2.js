@@ -37,7 +37,7 @@ export default {
                 document: { url },
                 fileName: filename,
                 mimetype: 'application/zip',
-                caption: `📦 *Repository:* ${user}/${repo}\n✨ *Cloned by GAAJU-MD*`
+                caption: `📦 *Repository:* ${user}/${repo}\n✨ *Cloned by Kazi-md-bot-4X*`
             }, { quoted: message });
         }
         catch (err) {
