@@ -8,7 +8,7 @@ export default {
         const chatId = message.key.remoteJid;
         if (!args || args.length === 0) {
             return sock.sendMessage(chatId, {
-                text: '*🌟 Please provide a GitHub URL or username and repository name.*\n\n*Example usage:*\n\n.clone https://github.com/Xchristech2/GAAJU-MD\n\n.clone Xchristech2 GAAJU-MD'
+                text: '*🌟 Please provide a GitHub URL or username and repository name.*\n\n*Example usage:*\n\n.clone https://github.com/kajisaheb809-cyber/Kazi-md-bot-4X\n\n.clone kajisaheb809-cyber GAAU-MD'
             });
         }
         let url = '';
