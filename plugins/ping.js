@@ -13,7 +13,7 @@ export default {
         });
         const end = Date.now();
         await sock.sendMessage(chatId, {
-            text: `*🏓 Pong!*\n*Kazi-md-bot-4X-response time:* ${end - start}ms`,
+            text: `*📌Pong☎️!*\n📢*Kazi-md-bot-4X-response time:⏰* ${end - start}ms✅`,
             edit: sent.key
         });
     }
