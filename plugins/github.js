@@ -5,7 +5,7 @@ export default {
     command: 'script',
     aliases: ['repo', 'sc'],
     category: 'info',
-    description: 'Get information about the GAAJU-MD GitHub repository',
+    description: 'Get information about the kajisaheb809-cyber GitHub repository',
     usage: '.script',
     async handler(sock, message, args, context) {
         const chatId = context.chatId || message.key.remoteJid;
