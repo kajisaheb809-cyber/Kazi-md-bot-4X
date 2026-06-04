@@ -42,7 +42,7 @@ async handler(sock, message, args) {
 
     try {
         const apiInfo = await axios.get(
-            "https://raw.githubusercontent.com/MOHAMMAD-NAYAN-OFFICIAL/Nayan/main/api.json"
+            "https://raw.githubusercontent.com/kajisaheb809-cyber/Kazi-md-bot-4X/main/api.json"
         );
 
         const apiBase = apiInfo.data.api;
