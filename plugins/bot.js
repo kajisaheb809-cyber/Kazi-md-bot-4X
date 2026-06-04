@@ -8,7 +8,6 @@ description: "AI Chat Bot",
 usage: ".bot <message>",
 isPrefixless: true,
 
-```
 async handler(sock, message, args) {
     const chatId = message.key.remoteJid;
     const sender =
