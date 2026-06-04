@@ -66,6 +66,4 @@ async handler(sock, message, args) {
         });
     }
 }
-```
-
 };
