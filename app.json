@@ -2,7 +2,7 @@
   "name": "Kazi-md-bot-4X",
   "description": "High performance multi-device WhatsApp bot",
   "keywords": ["whatsapp-bot", "baileys", "Kazi-md-bot-4X"],
-  "repository": "https://github.com/kajisaheb809-cyber",
+  "repository": "https://github.com/kajisaheb809-cyber/Kazi-md-bot-4X",
   "stack": "container",
   "env": {
     "SESSION_ID": {
