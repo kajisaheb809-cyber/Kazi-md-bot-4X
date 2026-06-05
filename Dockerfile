@@ -1,6 +1,6 @@
-FROM quay.io/kazi-md-bot-azi-md-bot-4X:latest
+FROM quay.io/kajisaheb809-cyber/kazi-md-bot-4x:latest
 
-WORKDIR /root/kazi-md-bot-4X
+WORKDIR /root/kazi-md-bot-4x
 
 RUN git clone https://github.com/kajisaheb809-cyber . && \
     npm install
