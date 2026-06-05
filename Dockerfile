@@ -1,4 +1,4 @@
-FROM quay.io/christech/Kazi-md-bot-4X:latest
+FROM quay.io/kajisaheb809-cyber/kazi-md-bot-azi-md-bot-4X:latest
 
 WORKDIR /root/Kazi-md-bot-4X
 
